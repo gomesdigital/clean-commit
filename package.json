@@ -1,0 +1,27 @@
+{
+  "name": "@gomesdigital/dev-util",
+  "version": "1.0.0",
+  "description": "A combination to enforce high quality commit messages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gomesdigital/dev-util.git"
+  },
+  "keywords": [
+    "husky",
+    "commitizen",
+    "commitlint"
+  ],
+  "author": "Daniel Gomes-Sebastiao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gomesdigital/dev-util/issues"
+  },
+  "homepage": "https://github.com/gomesdigital/dev-util#readme",
+  "devDependencies": {
+    "husky": "^7.0.4"
+  }
+}
