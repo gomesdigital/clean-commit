@@ -4,6 +4,7 @@
   "description": "A combination to enforce high quality commit messages.",
   "main": "index.js",
   "scripts": {
+    "prepare": "npx husky install",
     "commit": "git cz"
   },
   "repository": {
