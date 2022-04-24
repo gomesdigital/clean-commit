@@ -1,6 +1,6 @@
 {
   "name": "clean-commit",
-  "version": "1.0.1",
+  "version": "0.6.1",
   "description": "A combination to enforce high quality commit messages.",
   "main": "index.js",
   "scripts": {
