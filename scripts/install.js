@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-// configures the necessary aliases and modules to use clean-commit
+
+// Configures the necessary aliases and modules to use clean-commit.
 
 const ROOT_DIR = process.env.INIT_CWD;
 const merge = require('lodash/merge');
