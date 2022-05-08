@@ -22,4 +22,4 @@ try {
 packageJson = omit(packageJson, 'scripts.commit', 'config.commitizen');
 
 // write the object back to the package.json file
-fs.writeFileSync(`${ROOT_DIR}/package.json`, JSON.stringify(packageJson));
+fs.writeFileSync(`${ROOT_DIR}/package.json`, JSON.stringify(packageJson, null, 2));
