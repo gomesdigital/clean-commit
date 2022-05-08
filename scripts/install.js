@@ -29,9 +29,8 @@ merge(packageJson, {
   }
 })
 
-
 // write the object back to the package.json file
-fs.writeFileSync(`${ROOT_DIR}/package.json`, JSON.stringify(packageJson));
+fs.writeFileSync(`${ROOT_DIR}/package.json`, JSON.stringify(packageJson, null, 2));
 
 try {
   exec(`cd ${ROOT_DIR} && husky install ./node_modules/clean-commit/.husky`);
